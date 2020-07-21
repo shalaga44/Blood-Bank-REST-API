@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 class User(models.Model):
-    id = models.IntegerField(primary_key=True, auto_created=True)
+    id = models.AutoField(primary_key=True)
     username = models.CharField(max_length=100)
     phone = models.CharField(max_length=15)
     bloodGroups = ("A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-")

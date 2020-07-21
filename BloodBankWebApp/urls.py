@@ -7,5 +7,5 @@ from BloodBankWebApp.views import UserViewSet
 router = DefaultRouter()
 router.register("users", UserViewSet, basename="users")
 urlpatterns = [
-    path("viewset/", include(router.urls)),
+    path("", include(router.urls)),
 ]
