@@ -1,4 +1,4 @@
 venv
 *.pyc
-#db.sqlite3 # I want to uplode the db      I'll fix this later
+db.sqlite3
 .idea/
