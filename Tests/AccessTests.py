@@ -2,13 +2,7 @@ import unittest
 import requests
 from rest_framework import status
 
-root_url = "127.0.0.1:8000/"
-protocols = ["http://"]
-ViewSets_urls = {
-    "users":
-        root_url + "users/"}
-admin_username = 'admin'
-admin_password = 'TemporaryPassword123'
+from BloodBankWebApp.StringUtils import ViewSets_urls, protocols, admin_username, admin_password
 
 
 class AdminTests(unittest.TestCase):
